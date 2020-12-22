@@ -15,11 +15,11 @@ export const initialState = {
 export type Action =
   | {
       type: ActionType.Keydown;
-      payload: KeyboardEvent;
+      payload: React.KeyboardEvent;
     }
   | {
       type: ActionType.Keyup;
-      payload: KeyboardEvent;
+      payload: React.KeyboardEvent;
     }
   | {
       type: ActionType.SwallowSequence;
